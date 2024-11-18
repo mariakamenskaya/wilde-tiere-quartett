@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wilde-Tiere-Quartett</title>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="gmynd.js"></script>
+
+		<link
+			rel="stylesheet"
+			href="css/desktop.css"
+			media="screen and (min-width: 768px)"
+		/>
+		<link
+			rel="stylesheet"
+			href="css/mobile.css"
+			media="screen and (max-width: 767px)"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+		/>
+	</head>
+	<body>
+		<header>
+			<h1>Wilde-Tiere-Quartett</h1>
+			<nav>
+				<ul>
+					<li><a href="#" id="home-link">Zufallsansicht</a></li>
+					<li><a href="#" id="group-toggle">Gruppenansicht</a></li>
+					<li>
+						<label for="sort-select">Sortieren nach:</label>
+						<select id="sort-select">
+							<option value="default">Standard</option>
+							<option value="weight">Gewicht</option>
+							<option value="lifespan">Lebensdauer</option>
+						</select>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main id="card-container" class="grid-layout"></main>
+		<script src="main.js"></script>
+	</body>
+</html>
