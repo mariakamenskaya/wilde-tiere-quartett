@@ -26,11 +26,13 @@ Die Anwendung ist für verschiedene Bildschirmgrößen optimiert und verwendet s
 
 # Verwendete Technologien
 
-HTML: Struktur der Webseite.
-CSS: Styling der Karten und der Webseite.
-JavaScript: Logik für das Laden, Mischen und Sortieren der Karten.
-jQuery: Vereinfachung der DOM-Manipulation und AJAX-Anfragen.
-Code-Übersicht
-index.html: Enthält die Grundstruktur der Webseite und bindet die notwendigen Skripte und Stylesheets ein.
-style.css: Definiert das Styling der Karten und der Webseite, einschließlich der Hover-Effekte.
-main.js: Enthält die Hauptlogik der Anwendung, einschließlich des Ladens der JSON-Daten, der Kartenmischung und -sortierung sowie der Hover-Effekte.
+- HTML: Struktur der Webseite.
+- CSS: Styling der Karten und der Webseite.
+- JavaScript: Logik für das Laden, Mischen und Sortieren der Karten.
+- jQuery: Vereinfachung der DOM-Manipulation und AJAX-Anfragen.
+
+# Code-Übersicht
+
+- index.html: Enthält die Grundstruktur der Webseite und bindet die notwendigen Skripte und Stylesheets ein.
+- style.css: Definiert das Styling der Karten und der Webseite, einschließlich der Hover-Effekte.
+- main.js: Enthält die Hauptlogik der Anwendung, einschließlich des Ladens der JSON-Daten, der Kartenmischung und -sortierung sowie der Hover-Effekte.
