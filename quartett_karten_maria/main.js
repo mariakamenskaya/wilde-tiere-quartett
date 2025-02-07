@@ -2,7 +2,7 @@ $(document).ready(() => {
 	const cardContainer = $("#card-container");
 
 	// JSON-Daten laden
-	$.getJSON(".vscode/animaldata.json", (animals) => {
+	$.getJSON("animaldata.json", (animals) => {
 		// Karten aus `card.html` laden
 		function loadCard() {
 			return $.get("card.html");
